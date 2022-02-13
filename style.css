@@ -4,3 +4,19 @@
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 }
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--white);
+    width: 400px;
+    height: 600px;
+    border-radius: 35px;
+}
